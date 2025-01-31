@@ -35,3 +35,4 @@ __pycache__/
 *anonymize_edfs*
 *push.sh
 *credentials.py
+*.gitconfig

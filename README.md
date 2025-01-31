@@ -43,5 +43,5 @@ pip install -r requirements.txt
 ```
 4. Test the installation by running the GUI:
 ```
-streamlit run streamlit/main.py
+streamlit run main.py
 ```

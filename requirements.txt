@@ -1,4 +1,7 @@
 pandas
 numpy
 plotly
-streamlit
+streamlit==1.34.0 
+scipy
+matplotlib
+orjson
