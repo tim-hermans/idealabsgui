@@ -39,11 +39,11 @@ col2.write("**Upload signal**")
 fs_upload = col2.number_input("Sampling frequency (Hz):", value=100, key="fs_upload")
 uploaded_file = col2.file_uploader("Choose a csv file")
 if uploaded_file:
-    button_load = col2.button("(Re)load")
+    button_load = col2.button("Load")
 else:
     button_load = None
 
-if col1.button("(Re)generate"):
+if col1.button("Generate"):
     # Regenerate random data.
     fs = fs_generate
     eeg = generate_eeg(
