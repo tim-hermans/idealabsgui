@@ -3,7 +3,7 @@
 ## About
 This repository contains code for the GUI demonstrating EEG (pre)processing as part of IdeaLabs, KU Leuven.
 
-The GUI is hosted on streamlit at: TODO
+The GUI is publicly available on streamlit at: [https://idealabseeg.streamlit.app](https://idealabseeg.streamlit.app)
 
 ## Local installation
 If you want to use/test/develop the GUI locally (i.e., not through the public URL), follow the below steps.
@@ -43,5 +43,5 @@ pip install -r requirements.txt
 ```
 4. Test the installation by running the GUI:
 ```
-streamlit run main.py
+streamlit run Home.py
 ```
